@@ -63,6 +63,7 @@ RouteModel::Node *RoutePlanner::NextNode() {
 
     // Remove it from the open_list
     open_list.erase(open_list.begin());
+    return next_node;
 }
 
 
